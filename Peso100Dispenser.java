@@ -11,7 +11,7 @@ public class Peso100Dispenser implements DispenseChain {
         if (cur.getAmount() >= 100) {
             int num = cur.getAmount() / 100;
             int remainder = cur.getAmount() % 100;
-            System.out.println("Dispensing " + num + " 0 bills");
+            System.out.println("Dispensing " + num + " 100 bills");
             if (remainder != 0) {
                 if (this.chain != null) this.chain.dispense(new Currency(remainder));
                 else System.out.println("Unable to dispense remainder: " + remainder);
