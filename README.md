@@ -1,2 +1,3 @@
-# lab-seatwork-3-chain-of-responsibility-design-pattern
-Software Engineering 2 Lab Seatwork 3
+## Software Engineering 2 Lab Seatwork 3
+
+Chain of Responsibility Design Pattern Seatwork
